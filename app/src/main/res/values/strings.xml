@@ -1,0 +1,33 @@
+<resources>
+
+        <string name="app_name">Tip Calculator</string>
+        <string name="tip_amount">Tip Amount: $%s</string>
+        <string name="total_bill">Total Bill: $%s</string>
+        <!-- res/values/strings.xml -->
+                <string name="tip_amount_with_currency">Tip Amount: %1\$s %2$s</string>
+                <string name="total_bill_with_currency">Total Bill: %1\$s %2$s</string>
+        <string name="result_message">Tip Amount: %1$s\nTotal Bill Amount: %2$s</string>
+        <string name="result_message_rounded">Tip Amount (Rounded): %1$s\nTotal Bill Amount (Rounded): %2$s</string>
+        <string name="result_message_split_bill">Tip Amount: %1$s\nTotal Bill Amount: %2$s\nNumber of People: %3$d\nPayment Per Person: %4$s</string>
+        <string name="result_message_split_bill_rounded">Tip Amount (Rounded): %1$s\nTotal Bill Amount (Rounded): %2$s\nNumber of People: %3$d\nPayment Per Person: %4$s</string>
+
+        <string name="total_bill_with_currency_bold"><![CDATA[<b>Total Bill Amount:</b> %s %s]]></string>
+        <string name="total_bill_with_currency_bold_split"><![CDATA[<b>Total Bill Amount:</b> %s %s\n<b>Number of People Paying:</b> %d\n<b>Payment Per Person:</b> %s %s]]></string>
+
+                <!-- ... (existing strings) ... -->
+
+                <string-array name="currency_options">
+                        <item>USD</item>
+                        <item>EUR</item>
+                        <item>GBP</item>
+                        <!-- Add more currencies as needed -->
+                </string-array>
+
+
+
+
+
+
+
+
+</resources>
